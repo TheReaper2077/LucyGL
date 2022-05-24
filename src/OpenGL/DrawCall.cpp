@@ -3,7 +3,7 @@
 #include <glad/glad.h>
 #include <assert.h>
 
-static enum DrawMode {
+enum DrawMode {
 	NONE,
 	INDIRECT,
 	INSTANCED,
