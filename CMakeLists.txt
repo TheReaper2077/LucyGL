@@ -16,6 +16,7 @@ add_library(LucyGL
 	"./src/OpenGL/UniformBuffer.cpp"
 	"./src/OpenGL/VertexArray.cpp"
 	"./src/OpenGL/VertexBuffer.cpp"
+	"./src/glad.c"
 )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
